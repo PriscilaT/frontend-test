@@ -1,3 +1,54 @@
-body, html {
-    font-family: 'Montserrat' !important;
+body{
+	
+    font-family: 'Montserrat' !important; 
+}
+
+/* estilização do navbar */
+#banner{
+		background-image: url("./img/banner/banner.png");
+    background-size: cover;
+    height: 315px; 	 
+ }
+
+ #logo{ 
+    background-image: url(./img/banner/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
+    height: 60px;
+    width: 100%;
+ }
+
+
+#superior ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0 auto;
+  overflow: hidden;
+  background-color: #3573ba;
+  height: 55px;
+  overflow: auto;
+  text-align: center;
+}
+
+#superior li {
+  display: inline-block;
+}
+
+#superior li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+#titulo{
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.width-input{
+  width: 75%;
 }
