@@ -9,6 +9,8 @@
     <link rel="icon" href="img/favicon.ico">
     <title>Portal da Transparência de Maceió</title>
 
+    <link href="C:\Users\Priscila\frontend-test\style.css" rel="stylesheet">
+
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
@@ -18,9 +20,9 @@
 
     <header>
 
-        <nav class="navbar justify-content-center fixed-top no-padding menu-superior">
+        <nav class="nav justify-content-center fixed-top no-padding menu-superior" id="superior">
 
-            <ul class="nav">
+            <ul class="navbar navbar-default" role="navigation">
                 <li class="nav-item">
                   <a class="nav-link" href="./index.html">Início</a>
                 </li>
@@ -44,18 +46,19 @@
 
         </nav>
 
-        <div class="jumbotron jumbotron-fluid">
-            
-            <h1 class="titulo-site filter-shadow">Portal da Transparência Municipal</h1>
+        <div class="jumbotron jumbotron-fluid" id="banner">
+            <div id="logo"></div>
+            <h1 class="titulo-site filter-shadow" id="titulo">Portal da Transparência Municipal</h1>
 
             <div class="container input-group mb-3 width-input">
 
-                <input type="search" class="form-control py-2 btn-outline-secondary border-right-0 border filter-shadow">
+                <input type="search" class="form-control py-2 btn-outline-secondary border-right-0 border filter-shadow" placeholder="Qual serviço você deseja?">
                 
-                <span class="input-group-append">
+                <span class="input-group-append ">
 
                     <button class="btn bg-white border-left-0 border" type="button">
-                        ...
+                        <span class="glyphicon glyphicon-search">
+                        </span>
                     </button>
 
                 </span>
